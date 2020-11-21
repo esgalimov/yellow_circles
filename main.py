@@ -19,7 +19,7 @@ class YellowCircle:
 class MyWidget(QMainWindow):
     def __init__(self):
         super().__init__()
-        uic.loadUi('window.ui', self)
+        uic.loadUi('UI.ui', self)
         self.pushButton.clicked.connect(self.run)
         self.circles = []
 
